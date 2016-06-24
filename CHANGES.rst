@@ -87,6 +87,9 @@ Breaking changes:
 
 New features:
 
+- Add sort_on field to search controlpanel.
+  [rodfersou]
+
 - Updated components directory, recompiled bundles.
   [thet]
 
