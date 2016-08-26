@@ -18,6 +18,9 @@ Breaking changes:
   This change shouldn't impact too much, because the form unload protection didn't work at all in Plone 5 until now.
   [thet]
 
+- add registry settings for thumb and icon handling  in tables, lists and portlets
+  https://github.com/plone/Products.CMFPlone/issues/1734 (PLIP) 
+  requires upgrade step (reapply profile)[fgrcon]
 
 New features:
 

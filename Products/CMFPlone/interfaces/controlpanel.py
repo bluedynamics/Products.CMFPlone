@@ -1160,6 +1160,60 @@ class ISiteSchema(Interface):
                        _(u'For authenticated users only'))]),
         required=True)
 
+
+    no_thumbs_portlet =schema.Bool(
+        title=_(u'No Thumbs in portlets'),
+        description=_(u'Suppress thumbs in all portlets'
+                      u' - Can be overridden individually in selected portlets'),
+        default=False,
+        required=False)
+    
+    no_thumbs_lists =schema.Bool(
+        title=_(u'No thumbs in list views'),
+        description=_(u'Suppress thumbs in all list views'),
+        default=False,
+        required=False) 
+
+    no_thumbs_summary = schema.Bool(
+        title=_(u'No thumbs in summary views'),
+        description=_(u'Suppress thumbs in all summary views'),
+        default=False,
+        required=False)
+
+    no_thumbs_tables =schema.Bool(
+        title=_(u'No thumbs in table views'),
+        description=_(u'Suppress thumbs in all tableviews and in folder contents view'),
+        default=False,
+        required=False) 
+
+    thumb_size_portlet = schema.Choice(
+        title=_(u'Thumb size for portlets'),
+        description=_(u''),
+        default=u'icon',
+        vocabulary = 'plone.app.vocabularies.ImagesScales',
+        required=True)
+
+    thumb_size_listing = schema.Choice(
+        title=_(u'Thumb size for listings '),
+        description=_(u'e.g. standard view'),
+        default=u'thumb',
+        vocabulary = 'plone.app.vocabularies.ImagesScales',
+        required=True)
+
+    thumb_size_table = schema.Choice(
+        title=_(u'Thumb size for tables '),
+        description=_(u'e.g., tabular view, folder content listing'),
+        default=u'tile',
+        vocabulary = 'plone.app.vocabularies.ImagesScales',
+        required=True)
+
+    thumb_size_summary = schema.Choice(
+        title=_(u'Thumb size for summary view  '),
+        description=_(u'e.g., tabular view, folder content listing'),
+        default=u'mini',
+        vocabulary = 'plone.app.vocabularies.ImagesScales',
+        required=True)
+
     toolbar_position = schema.Choice(
         title=_(u'Toolbar position'),
         description=_(
