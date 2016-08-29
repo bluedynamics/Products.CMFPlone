@@ -29,6 +29,12 @@ New features:
 - Include mockup 2.4.0.
   [thet]
 
+- Toolbar styles:
+
+  - Don't break workflow contentmenu header and better place the current status icon.
+
+  [thet]
+
 Bug fixes:
 
 - Reset and re-enable ``define`` and ``require`` for the ``plone-legacy`` bundle in development mode.
