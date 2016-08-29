@@ -35,6 +35,8 @@ New features:
 
   - Let the toolbar submenus be as wide as they need by setting a ``min-width`` and ``width: auto;``.
 
+  - Raise the width of the expanded toolbar from ``120px`` to ``180px``.
+
   [thet]
 
 Bug fixes:
