@@ -29,6 +29,12 @@ New features:
 - Include mockup 2.4.0.
   [thet]
 
+- Toolbar styles:
+
+  - Don't break workflow contentmenu header and better place the current status icon.
+
+  [thet]
+
 Bug fixes:
 
 - Apply security hotfix 20160830 for ``z3c.form`` widgets.  [maurits]
