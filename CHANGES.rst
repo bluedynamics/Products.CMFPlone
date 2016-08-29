@@ -39,6 +39,8 @@ New features:
 
   - Make menu hover background fit whole menu width.
 
+  - Don't show toolbar scroll bars for bigger screens and make scroll buttons full-width.
+
   [thet]
 
 Bug fixes:
