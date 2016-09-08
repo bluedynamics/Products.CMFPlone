@@ -19,6 +19,8 @@ New features:
 
 Bug fixes:
 
+- Get scale settings from configuration for tinymce[vangheem]
+
 - Fixed tests in combination with newer CMFFormController which has the hotfix.  [maurits]
 
 - Apply security hotfix 20160830 for ``@@plone-root-login``.  [maurits]
