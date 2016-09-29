@@ -28,7 +28,8 @@ class ScriptsView(ResourceView):
                         data = {
                             'bundle': bundle_name,
                             'conditionalcomment': bundle.conditionalcomment,  # noqa
-                            'src': src}
+                            'src': src,
+                            'development': self.development}
                         result.append(data)
         else:
             if bundle.compile is False:

@@ -31,6 +31,11 @@ New features:
 
 Bug fixes:
 
+- Reset and re-enable ``define`` and ``require`` for the ``plone-legacy`` bundle in development mode.
+  Fixes issues with legacy scripts having RequireJS integration in development mode.
+  In Production mode, resetting  and re-enabling is done in the compiled bundle.
+  [thet]
+
 - Apply security hotfix 20160830 for ``z3c.form`` widgets.  [maurits]
 
 - Fixed tests in combination with newer CMFFormController which has the hotfix.  [maurits]
